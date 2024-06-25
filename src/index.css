@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.active{
+  color: rgb(224, 0, 0);
+  /* border-top: 1px solid red; */
+  /* font-weight: 700; */
+
+}
+#bg{
+  background-color: white;
+}
+#grid{
+  margin-bottom: 100px;
+}
+@media screen and (max-width:1420px) {
+  #grid{
+    grid-template-columns: repeat(5,auto);
+  }
+}
+
+
+@media screen and (max-width:1350px) {
+  #gap{
+    gap: 40px;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width:1200px) {
+  #gap{
+    gap: 10%;
+    justify-content: space-between;
+  }
+  #grid{
+    grid-template-columns: repeat(4,auto);
+  }
+  #dim{
+    gap: 20px;
+  }
+  #img{
+    width: 300px;
+  }
+}
+@media screen and (max-width:1170px) {
+  #sum{
+    font-size: 13px;
+  }
+  #gap-2{
+    display: none;
+  }
+  #month{
+    font-size: 10px;
+  }
+  #bonus{
+    font-size: 10px;
+  }
+}
+@media screen and (max-width:1100px) {
+  #sum{
+    font-size: 13px;
+  }
+  #month{
+    font-size: 10px;
+  }
+  #bonus{
+    font-size: 8px;
+  }
+}
+@media screen and (max-width:1060px) {
+  #dim{
+    gap: 0;
+  }
+}
+@media screen and (max-width:1020px) {
+  #sum{
+    font-size: 16px;
+  }
+}
+@media screen and (max-width:985px) {
+  #grid{
+    grid-template-columns: repeat(3,auto);
+  }
+}
+@media screen and (max-width:746px) {
+  #grid{
+    grid-template-columns: repeat(2,auto);
+  }
+}
+@media screen and (max-width:501px) {
+  #grid{
+    grid-template-columns: repeat(1,auto);
+  }
+  #grid-2{
+    margin: 100px;
+    height: 500px;
+  }
+  #grid-3{
+    margin: 30px;
+    /* height: 500px; */
+  }
+}
+@media screen and (max-width:500px) {
+  #sum{
+    font-size: 12px;
+  }
+  #free{
+    font-size: 12px;
+  }
+  #tovar{
+    font-size: 12px;
+  }
+  #money{
+    display: none;
+  }
+  #ssr{
+    font-size: 16px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1170px) {
+  #hello{
+    width: 40%;
+  }
+  
+}
+@media screen and (min-width:1350px) {
+  #hello{
+    width: 30%;
+  }
+}
+#menu{
+  transform: rotateY(180deg);
+}
+
+ 

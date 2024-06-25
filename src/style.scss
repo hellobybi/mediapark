@@ -1,0 +1,40 @@
+.header__menu div {  width: 40px;
+  // height: 40px;  margin: 40px;
+  position: relative;
+}
+.header__menu span {
+  background: white;  width: 70%;
+  height: 2px;  border-radius: 5px;
+  display: block;  position: absolute;
+  // left: 10%;  bottom: 54px;
+  transform: translate(-50%, -50%);  transition: transform .3s, width .3s;
+}
+.header__menu{
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+  align-items: center;
+  gap: 5px;
+  color: white;
+}
+
+.header__menu .line-1 { 
+   transform: translate(-50%, -9px);
+}
+.header__menu .line-3 { 
+   transform: translate(-50%,7px);
+}
+.openmenu .line-1 { 
+   transform: translate(-50%, -50%) rotate(-45deg);
+}
+.openmenu .line-3 { 
+   transform: translate(-50%, -50%) rotate(45deg);
+}
+.openmenu .line-2 { 
+   width: 0;
+}
+
+
+.active{
+   color: red;
+}
